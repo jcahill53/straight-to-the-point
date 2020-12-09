@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Our Facilities</title>
     <script src="https://kit.fontawesome.com/e4e34ea44b.js" crossorigin="anonymous"></script>
     <link href="styles/stylesheet.css" type="text/css" rel="stylesheet">
 </head>
@@ -29,36 +29,41 @@
     </header>
 
     <main>
-        <h2>About our Facilities</h2>
+        <section class="facilities-about">
+            <h2>About our Facilities</h2>
 
-        <p>Straight to the Point Archery is an indoor training facility with 28 shooting (14 - 10 yard lanes and 14 – 20
-            yard lanes) and 2 private coaching rooms. We also have access to 26 additional 20 yard lanes and an outdoor
-            shooting field.</p>
+            <p>Straight to the Point Archery is an indoor training facility with 28 shooting (14 - 10 yard lanes and 14
+                – 20
+                yard lanes) and 2 private coaching rooms. We also have access to 26 additional 20 yard lanes and an
+                outdoor
+                shooting field.</p>
+        </section> <!-- end of facilities-about -->
+
 
         <div class="facilities-grid">
-            <div class="facilities">
-                <img src="images/archery-facilities3.jpg" alt="Indoor Facility">
-                <img src="images/outdoor-archery2.jpg" alt="Map of Location">
 
-            </div>
+            <div class="facilities col-1 row-span-1-9">
+                <video width="640" height="480" controls class="col-1 row-span-1-5 img1">
+                    <source src="images/archery-video.mp4">
+                    Your browser does not support video
+                </video>
+            </div> <!-- end of facilities -->
 
-            <article class="facilities-loc-grid">
-                <h3>Location</h3>
-                <p>Straight to the Point Archery</p>
-                <p>528 Nock Point Ln</p>
-                <p>Tacoma, WA 98412</p>
-                <p>archery-education@example.com</p>
-                <p>(253)555-1010</p>
-                <img src="images/map.png" alt="Map of Location">
+            <article class="facilities-loc-grid col=2 row-1">
+                <h3 class="col-2 row-1">Location</h3>
+                <p class="col-2 row-2">Straight to the Point Archery</p>
+                <p class="col-2 row-3">528 Nock Point Ln</p>
+                <p class="col-2 row-4">Tacoma, WA 98412</p>
+                <p class="col-2 row-5">archery-education@example.com</p>
+                <p class="col-2 row-6">(253)555-1010</p>
+                <img class="col-2 row-7" src="images/map.png" alt="Map of Location">
+                <a class="more col-2 row-8 location"
+                    href="https://www.google.com/maps/dir/47.5922432,-122.0182016/Skookum+Archers,+11209+Shaw+Rd+E,+Puyallup,+WA+98374/@47.3733722,-122.4650292,10z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x5490fc8610a5a6f9:0x77e90a457e99e8b7!2m2!1d-122.2558892!2d47.1544219">Directions</a>
+            </article> <!-- end of facilities-loc-grid -->
 
-                <a class="more"
-                    href="https://www.google.com/maps/dir/47.5922432,-122.0182016/Skookum+Archers,+11209+Shaw+Rd+E,+Puyallup,+WA+98374/@47.3733722,-122.4650292,10z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x5490fc8610a5a6f9:0x77e90a457e99e8b7!2m2!1d-122.2558892!2d47.1544219">Location</a>
+        </div> <!-- end of facilities-grid -->
 
-
-            </article>
-
-
-            <img src="images/archeryAcademy-logo-color.png" alt="blue logo">
+        <img class="facilities-logo" src="images/archeryAcademy-logo-color.png" alt="blue logo">
 
     </main>
 
