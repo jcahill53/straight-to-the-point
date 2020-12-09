@@ -73,11 +73,15 @@ h3 {
 
 h1 {
     font-size: 40px;
+    color:#1b4471;
 
 }
 
 h2 {
     font-size: 24px;
+    margin-top:20px;
+    font-weight:bold;
+    color:#1b4471;
 
 
 }
@@ -85,12 +89,20 @@ h2 {
 h3 {
     background-color: #ecb722;
     padding-top: 20px;
-    /* border-top: 2px solid #444444; */
-    border-bottom: 2px solid #444444;
+    /* margin-top:20px; */
+    /* border-bottom: 2px solid #444444; */
+    font-weight:bold;
+    color:#1b4471;
+}
+
+a:hover {
+    background-color:#ecb722;
+    color:#1b4471;
 }
 
 .subtitle {
     color: #03a3df;
+    margin-top:0px;
 }
 
 
@@ -133,6 +145,45 @@ h3 {
     padding: 20px;
 }
 
+.padding {
+    margin-top:20px;
+    text-align:center;
+}
+
+.classes {
+    display:grid;
+    grid-template-columns: 14.75% 30% 55% .25%;
+    grid-template-rows:auto auto auto auto auto auto auto auto auto auto auto auto auto;
+    grid-gap: 1px;
+    background-color:#444444;
+    border-top: 1px solid #444444;
+    border-left: 1px solid #444444;
+    border-bottom: 1px solid #444444;
+    margin: 30px;
+}
+
+.private-lesson {
+    display:grid;
+    /* width:75%; */
+    grid-template-columns: 14.75% 30% 55% .25%;
+    grid-template-rows:auto auto auto auto auto auto auto auto auto auto auto auto;
+    grid-gap: 1px;
+    background-color:#444444;
+    border-top: 1px solid #444444;
+    border-left: 1px solid #444444;
+    border-bottom: 1px solid #444444;
+    margin: 30px;
+}
+
+
+
+.classes p, .private-lesson p { 
+        background-color:white;
+        padding:10px 0px 10px 10px;
+}
+
+
+
 .staff {
 
     width: 60%;
@@ -157,21 +208,43 @@ h3 {
     width: 35%;
     margin-left: 30px;
     margin-right: 30px;
-    border: 2px solid #444444;
+    border: 1px solid #444444;
     margin-top: 20px;
+}
+
+.special {
+    margin:20px 20px 20px 20px;
+    border: 1px solid #444444;
+}
+
+.special p {
+    padding: 20px;
+}
+
+.special h3 {
+    border-bottom: 1px solid #444444;
+}
+
+.phone {
+    font-weight:bold;
+    color: #03a3df;
+
 }
 
 .highlight-home {
 
     display: grid;
-    grid-template-columns: 30% 70% 10%;
-    margin: 20px 100px;
+    grid-template-columns: auto auto;
+    grid-template-rows:auto;
+    grid-gap: 10px;
+    margin-right: 30px;
+    margin-top: 30px;
 }
 
 .highlight-home img {
     height: 60%;
     width: 60%;
-    padding-left: 50px;
+    padding-left: 60px;
     padding-top: 20px;
 
 }
@@ -181,6 +254,41 @@ h3 {
     color: #03a3df;
     text-transform: uppercase;
     font-weight: bold;
+  
+}
+
+.border-top {
+border-top: 1.5px double  #444444;
+}
+
+.border-left {
+    border-left: 1.5px double  #444444;
+}
+
+.border-right {
+    border-right: 1.5px double  #444444;
+}
+
+.border-bottom {
+    border-bottom: 1.5px double  #444444;
+}
+
+.border {
+    border:1.5px double  #444444;
+}
+
+.color {
+    color: #03a3df;
+    font-size: 1.25rem;
+
+}
+
+.color2 {
+    color: #03a3df;
+}
+
+.bold {
+    font-weight:bold;
 }
 
 footer {
@@ -194,20 +302,18 @@ footer {
     flex-wrap: wrap;
     border: 2px solid #444444;
     clear: both;
-    margin-top: 20px;
+    margin-top: 50px;
+    padding:  20px;
 
 }
 
-.contact {
-    padding: 50px;
-    align-content: center;
-}
-
-footer-portfolio {
+ 
+footer .portfolio {
     color: white;
     padding-top: 100px;
     height: 50px;
     line-height: 50px;
+
 }
 
 .social {
@@ -236,3 +342,113 @@ i {
 footer p {
     color: white;
 }
+
+footer a {
+    text-decoration: none;
+}
+
+.col-1 {
+    grid-column: 1/2
+    
+}
+
+.col-2 {
+    grid-column: 2/3
+    
+}
+
+.col-3 {
+    grid-column: 3/4
+    
+}
+
+.col-span-1-4 {
+    grid-column: 1/4
+
+}
+
+.col-span-2-4 {
+    grid-column: 2/4
+
+}
+.row-span-2-5 {
+    grid-row:2/5
+}
+
+.row-span-6-9 {
+    grid-row:6/9
+}
+
+.row-span-10-13 {
+    grid-row:10/13
+}
+
+.row-1 {
+    grid-row: 1/2
+    
+}
+
+.row-2 {
+    grid-row: 2/3
+    
+}
+
+.row-3 {
+    grid-row: 3/4
+    
+}
+
+.row-4 {
+    grid-row: 4/5
+    
+}
+
+.row-5 {
+    grid-row: 5/6
+    
+}
+
+
+.row-6 {
+    grid-row: 6/7
+    
+}
+
+
+.row-7 {
+    grid-row: 7/8
+    
+}
+
+.row-8 {
+    grid-row: 8/9
+    
+}
+
+.row-9 {
+    grid-row: 9/10
+    
+}
+
+.row-10 {
+    grid-row: 10/11
+    
+}
+
+.row-11 {
+    grid-row: 11/12
+    
+}
+
+.row-12 {
+    grid-row: 12/13
+    
+}
+
+.row-13 {
+    grid-row: 13/14
+    
+}
+
+
+
