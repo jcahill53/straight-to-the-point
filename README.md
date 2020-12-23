@@ -22,8 +22,11 @@ The site is written using semantic HTML and CSS styling.
 ACCESSIBILITY
 
 The site was evaluated using the following tools:
-•	WAVE Web Accessibility Evaluation Tool (https://wave.webaim.org/).   
+
+•	WAVE Web Accessibility Evaluation Tool (https://wave.webaim.org/). 
+
 •	Colbinder: Coblis Color Blind Simulator (https://www.color-blindness.com/coblis-color-blindness-simulator/) 
+
 •	Review other A11Y standards – see below for any changes made 
 
 The following summarizes the findings of this evaluation and the actions taken to improve the accessibility of the website:
