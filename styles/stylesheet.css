@@ -7,6 +7,27 @@
     color: #444444;
 }
 
+.hidden {
+    position: relative;
+    left: -10000px;
+    top: auto;
+}
+
+.hidden:focus {
+    left: 0px;
+}
+
+
+.sr-only {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+
 h1,
 h2,
 h3 {
@@ -52,7 +73,7 @@ a:hover {
 
 /* Header formatting */
 header {
-    background-color: #03a3df;
+    background-color: #037EAB;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -96,7 +117,7 @@ main {
 
 /* Home Page */
 .subtitle {
-    color: #03a3df;
+    color: #037EAB;
     margin-top: 0px;
 }
 
@@ -187,7 +208,7 @@ main {
 
 .phone {
     font-weight: bold;
-    color: #03a3df;
+    color: #037EAB;
 }
 
 /* Facilities Page */
@@ -323,7 +344,8 @@ main {
 
 footer {
     color: white;
-    background-image: url("../images/footerImage-small.jpg");
+    background-image: url("../images/footerImage-small2.jpg");
+    background-color: #037EAB;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -394,7 +416,7 @@ footer a {
 
 
 .highlight p {
-    color: #03a3df;
+    color: #037EAB;
     text-transform: uppercase;
     font-weight: bold;
 }
@@ -421,7 +443,7 @@ footer a {
 }
 
 .color {
-    color: #03a3df;
+    color: #037EAB;
     font-size: 1.25rem;
 }
 
