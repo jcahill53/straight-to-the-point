@@ -11,10 +11,13 @@
     position: relative;
     left: -10000px;
     top: auto;
+    /* background-color: #037EAB; */
+
 }
 
 .hidden:focus {
     left: 0px;
+
 }
 
 
@@ -85,7 +88,7 @@ header {
 
 .head-logo {
     padding-left: 50px;
-}
+ }
 
 nav ul {
     display: flex;
